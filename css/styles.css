@@ -4,7 +4,7 @@ body {
 
 h1 {
   color: white;
-  font-family: 'Montserrat-black';
+  font-family: 'Montserrat';
   font-size: 3.5rem;
   font-weight: bold;
   line-height: 1.5;
@@ -124,6 +124,34 @@ h3 {
 .pricing-column {
   padding: 3% 2%;
 }
+/* Cta section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 30px;
+}
+
+#cta h3 {
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 2;
+}
+/* footer */
+#footer {
+  padding: 30px;
+  text-align: center;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
+
+.ft-icon {
+  margin: 20px;
+}
 
 /* Media queries */
 @media (max-width: 1020px) {
@@ -135,5 +163,9 @@ h3 {
     position: static;
     width: 50%;
     transform: rotate(0);
+  }
+
+  #cta h3 {
+    font-size: 1.5rem;
   }
 }
